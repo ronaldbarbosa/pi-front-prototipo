@@ -11,14 +11,26 @@
     .form-signin {
         width: 90% !important;
     }
+    .form-group {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .input-field {
+        width: 90% !important;
+    }
     .cardapio > .card {
         width: 100% !important;
         border: none;
         border-radius: 0;
         border-top: 1px solid rgba(0, 0, 0, 0.151);
     }
-    .cardapio > .card > .col-md-4 {
-    }
+    
+}
+
+body {
+    min-height: 100vh;
 }
 
 a {
@@ -44,7 +56,7 @@ form .form-secao {
 }
 
 .cadastro {
-    width: 90% !important;
+    width: 90%;
 }
 
 .cadastro .btn-secondary {
@@ -66,15 +78,19 @@ form .form-secao {
 }
 
 .card {
-    border-color: #E74C3C;
+    border-color: #e74d3c69;
 }
 
 .card:hover {
-    background-color: #e74d3c1e;
+    background-color: #e74d3c0e;
 }
 
 .cardapio-img {
     height: 100px;
+}
+
+.carrinho {
+    min-height: 90vh;
 }
 
 footer {
